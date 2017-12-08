@@ -14,7 +14,19 @@
 
     
     #titre{
-    -fx-font-size: 25pt;
     -fx-font-family: Blueshire Regular;
+        -fx-font-size: 25pt;
+
     
+}
+
+#repere{
+    
+    -fx-font-size: 25pt;
+
+}
+
+#info{
+        -fx-font-size: 10pt;
+
 }

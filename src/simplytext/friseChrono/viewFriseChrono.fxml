@@ -8,33 +8,27 @@
 <?import javafx.scene.layout.*?>
 
 
-
         
              
 <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
-           <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    
+    <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    
     <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="200.0">
         <ImageView fx:id="image" fitHeight="1000.0" fitWidth="900.0" preserveRatio="true"  pickOnBounds="true">
             <Image url="@/simplytext/images/frise.png" preserveRatio="true" smooth="true" />
         </ImageView>
-            
     </VBox>
-    
-    <TitledPane text="My TitledPane" fx:id="someTitledPane" expanded="true" contentDisplay="RIGHT">
-    <graphic>
-        <ScrollPane fitToWidth="true" fitToHeight="true" style="-fx-background-color: rgba(255, 255, 255, 0);">
-            <ImageView fitWidth="24.0" fitHeight="24.0" preserveRatio="true" pickOnBounds="true">
-            <image>
-                <Image url="@/simplytext/images/logo.png" />
-            </image>
-            </ImageView>
+   <Label id="repere" text="⦁" layoutX="293.0" layoutY="433.0">
+        
         <tooltip>
-            <Tooltip text="My tooltip."/>
+            <Tooltip id="info" text="1815 : Napoléon exilé à St Hélène." prefHeight="200.0"/>
         </tooltip>
-        </ScrollPane>
-    </graphic>
-</TitledPane>
-   
+               
+    </Label>
+            
+  
+ 
 
 </AnchorPane>
 
