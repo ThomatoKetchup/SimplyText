@@ -12,15 +12,31 @@
         
              
 <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
-    <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
-        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
-    </ImageView>
-    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
+           <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="200.0">
         <ImageView fx:id="image" fitHeight="1000.0" fitWidth="900.0" preserveRatio="true"  pickOnBounds="true">
             <Image url="@/simplytext/images/frise.png" preserveRatio="true" smooth="true" />
         </ImageView>
             
-    </VBox> 
+    </VBox>
+    
+    <TitledPane text="My TitledPane" fx:id="someTitledPane" expanded="true" contentDisplay="RIGHT">
+    <graphic>
+        <ScrollPane fitToWidth="true" fitToHeight="true" style="-fx-background-color: rgba(255, 255, 255, 0);">
+            <ImageView fitWidth="24.0" fitHeight="24.0" preserveRatio="true" pickOnBounds="true">
+            <image>
+                <Image url="@/simplytext/images/logo.png" />
+            </image>
+            </ImageView>
+        <tooltip>
+            <Tooltip text="My tooltip."/>
+        </tooltip>
+        </ScrollPane>
+    </graphic>
+</TitledPane>
+   
+
 </AnchorPane>
+
+
 
