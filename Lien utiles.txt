@@ -1,1 +1,7 @@
-https://www.developpez.net/forums/d1299811/java/interfaces-graphiques-java/javafx/javafx-applications-multi-fenetres/ =====> Pour naviguer entre nos scènes
+
+=====> Pour naviguer entre nos scènes
+https://www.developpez.net/forums/d1299811/java/interfaces-graphiques-java/javafx/javafx-applications-multi-fenetres/ 
+
+
+Pour avoir un fxml commun (avec ce qu'il y a tous le temps (logo, titre ...) )
+http://blog.ngopal.com.np/2012/01/26/fxml-stuffs-include-and-define/
