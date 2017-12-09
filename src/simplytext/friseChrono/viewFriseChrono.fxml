@@ -6,11 +6,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+    <?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.Color?>
+
 
 
         
              
-<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" fx:controller="simplytext.friseChrono.controllerFriseChrono" xmlns:fx="http://javafx.com/fxml">
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
@@ -22,13 +26,17 @@
    <Label id="repere" text="⦁" layoutX="293.0" layoutY="433.0">
         
         <tooltip>
-            <Tooltip id="info" text="1815 : Napoléon exilé à St Hélène." prefHeight="200.0"/>
+            <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>
+        
+            
                
     </Label>
             
-  
- 
+
+  <Circle centerX="200.0" centerY="250.0" radius="50.0"/>
+        <Button text="Appuie ici" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
+
 
 </AnchorPane>
 
