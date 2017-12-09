@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1">
+    
+    <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    
+    <Label layoutX = "100.0" layoutY = "200" text = "Créer votre..." />
+    
+    <VBox spacing = "20" layoutX ="100.0" layoutY ="270.0">
+        <fx:define>
+            <ToggleGroup fx:id="choix"/>
+        </fx:define>
+    
+        <RadioButton text="Fiche de cours" toggleGroup="$choix"/>
+        <RadioButton text="Fiche de lecture" toggleGroup="$choix"/>
+        <RadioButton text="Frise chronologique" toggleGroup="$choix"/>
+        <RadioButton text="Biographie" toggleGroup="$choix"/>
+        <RadioButton text="Carte géographique" toggleGroup="$choix"/>
+        
+    </VBox>
+    
+    <TextArea layoutX = "600" layoutY = "400" fx:id= "textIn" prefWidth= "530" prefHeight = "250"/>
+    
+    <HBox spacing = "50" layoutX = "950" layoutY = "700">
+        <Button text = "Valider" />
+        <Button text = "Annuler" />
+    </HBox>
+    
+</AnchorPane>
