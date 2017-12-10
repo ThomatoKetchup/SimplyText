@@ -26,6 +26,7 @@
    <Label id="repere" text="⦁" layoutX="293.0" layoutY="433.0">
         
         <tooltip>
+
             <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>
         

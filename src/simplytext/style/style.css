@@ -46,3 +46,7 @@
     -fx-text-fill: black;
     -fx-font-size: 10pt;
 }
+
+.tooltip {
+    -fx-show-duration: 10s ;
+}
