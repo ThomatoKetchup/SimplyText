@@ -36,7 +36,7 @@
 
 }
 
-.label {
+#Label1 {
     -fx-font-family: Comic-Sans-MS;
     -fx-text-fill: red;
     -fx-font-size: 15pt;
@@ -45,4 +45,10 @@
 .radio-button {
     -fx-text-fill: black;
     -fx-font-size: 10pt;
+}
+
+#Label2 {
+    -fx-font-family: Comic-Sans-MS;
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
 }

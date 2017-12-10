@@ -8,15 +8,15 @@
 <?import javafx.collections.*?>
 
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.ControleurSimplyText" xmlns:fx="http://javafx.com/fxml/1">
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
-    <Label layoutX = "100.0" layoutY = "200" text = "Créer votre..." />
+    <Label id = "Label1" layoutX = "100.0" layoutY = "225" text = "Créer votre..." />
     
-    <VBox spacing = "20" layoutX ="100.0" layoutY ="270.0">
+    <VBox spacing = "20" layoutX ="100.0" layoutY ="295.0">
         <fx:define>
-            <ToggleGroup fx:id="choix"/>
+            <ToggleGroup fx:id = "choix"/>
         </fx:define>
     
         <RadioButton text="Fiche de cours" toggleGroup="$choix"/>
@@ -30,8 +30,14 @@
     <TextArea layoutX = "600" layoutY = "400" fx:id= "textIn" prefWidth= "530" prefHeight = "250"/>
     
     <HBox spacing = "50" layoutX = "950" layoutY = "700">
-        <Button text = "Valider" />
-        <Button text = "Annuler" />
+        <Button text = "Valider" onAction="#processEnter" />
+        <Button text = "Annuler" onAction="#processCancel" />
     </HBox>
+    
+    <Button layoutX = "750" layoutY = "260" text = "Joindre un fichier" />
+    
+    <Label id = "Label2" layoutX = "600" layoutY = "195" text = "Vous pouvez joindre un fichier..." />
+    
+    <Label id = "Label2" layoutX = "600" layoutY = "330" text = "... ou écrire votre texte ici !" />      
     
 </AnchorPane>
