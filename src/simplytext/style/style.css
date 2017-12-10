@@ -37,6 +37,7 @@
 }
 
 .label {
+#Label1 {
     -fx-font-family: Comic-Sans-MS;
     -fx-text-fill: red;
     -fx-font-size: 15pt;
@@ -47,6 +48,13 @@
     -fx-font-size: 10pt;
 }
 
+<<<<<<< HEAD
 .tooltip {
     -fx-show-duration: 10s ;
+=======
+#Label2 {
+    -fx-font-family: Comic-Sans-MS;
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
+>>>>>>> e2df7084d607e3619792fd76bd3d68be1f9d1762
 }
