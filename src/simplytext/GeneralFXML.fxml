@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.*?>
 
 
-
         
              
 <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
