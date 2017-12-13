@@ -18,24 +18,72 @@
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
-    <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="200.0">
-        <ImageView fx:id="image" fitHeight="1000.0" fitWidth="900.0" preserveRatio="true"  pickOnBounds="true">
-            <Image url="@/simplytext/images/frise.png" preserveRatio="true" smooth="true" />
+    <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0">
+        <ImageView fx:id="image" fitHeight="1000.0" fitWidth="1000.0" preserveRatio="true"  pickOnBounds="true">
+            <Image fx:id="frise" url="@/simplytext/images/frisechrono.png" preserveRatio="true" smooth="true" />
         </ImageView>
     </VBox>
-   <Label id="repere" text="⦁" layoutX="293.0" layoutY="433.0">
-        
+    
+    <Label id="date" text="1939" layoutX="218.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="223.0" layoutY="490.0">
         <tooltip>
 
             <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
-        </tooltip>
-        
-            
-               
+        </tooltip>               
     </Label>
-            
+    
+    
+    <Label id="date" text="1940" layoutX="367.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="372.0" layoutY="490.0">
+        <tooltip>
 
-  <Circle centerX="200.0" centerY="250.0" radius="50.0"/>
+            <Tooltip fx:id="tooltip2" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+        </tooltip>               
+    </Label>
+    
+    <Label id="date" text="1941" layoutX="516.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="521.0" layoutY="490.0">
+        <tooltip>
+
+            <Tooltip fx:id="tooltip3" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+        </tooltip>               
+    </Label>
+    
+       <Label id="date" text="1942" layoutX="667.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="670.0" layoutY="490.0">
+        <tooltip>
+
+            <Tooltip fx:id="tooltip4" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+        </tooltip>               
+    </Label>
+    
+    
+       <Label id="date" text="1943" layoutX="816.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="819.0" layoutY="490.0">
+        <tooltip>
+
+            <Tooltip fx:id="tooltip5" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+        </tooltip>               
+    </Label>
+    
+    
+       <Label id="date" text="1944" layoutX="966.0" layoutY="295.0"/>
+    <Label id="repere" text="⦁" layoutX="968.0" layoutY="490.0">
+        <tooltip>
+
+            <Tooltip fx:id="tooltip6" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+        </tooltip>               
+    </Label>
+
+
+
+
+
+
+
+
+
+
         <Button text="Appuie ici" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
 
 

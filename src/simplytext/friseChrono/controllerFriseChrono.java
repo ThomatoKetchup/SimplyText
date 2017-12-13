@@ -20,6 +20,13 @@ import javafx.stage.Stage;
 
 public class controllerFriseChrono {
     
+    @FXML
+    ImageView image;
+    SplitPane splitpane;
+    
+    @FXML
+    Tooltip tooltip1;
+    
     private Stage primaryStage;
     
     public void setStage(Stage s) {
@@ -29,9 +36,8 @@ public class controllerFriseChrono {
     public void processEnter(ActionEvent action) throws Exception {
 	Parent root = FXMLLoader.load(getClass().getResource("viewFriseChrono.fxml"));
 	Scene scene = new Scene(root);
-        
-        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 
+        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
         
@@ -40,18 +46,14 @@ public class controllerFriseChrono {
     
 
     @FXML
-    ImageView image;
-    SplitPane splitpane;
-    
-    @FXML
-    Tooltip tooltip1;
+	private void process(ActionEvent event) {
+                    		tooltip1.setText("saluudddddddddddddddddddddddddduut");
+//lorsqu'on appuie sur le bouton Action Event event prend le chiffre
+	}
     
 
     
-    @FXML
-	private void process(ActionEvent event) {  //lorsqu'on appuie sur le bouton Action Event event prend le chiffre
-		tooltip1.setText("saluuuut");
-	}
+    
         
           
         
