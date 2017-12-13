@@ -14,7 +14,7 @@
 
         
              
-<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" fx:controller="simplytext.friseChrono.controllerFriseChrono" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" fx:controller="simplytext.friseChrono.controllerFriseChrono" xmlns:fx="http://javafx.com/fxml">
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     

@@ -29,8 +29,12 @@ public class controllerFriseChrono {
     public void processEnter(ActionEvent action) throws Exception {
 	Parent root = FXMLLoader.load(getClass().getResource("viewFriseChrono.fxml"));
 	Scene scene = new Scene(root);
+        
+        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
+
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
+        
     }
     
     
