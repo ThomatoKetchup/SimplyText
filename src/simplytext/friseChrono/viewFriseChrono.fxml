@@ -24,7 +24,7 @@
         </ImageView>
     </VBox>
     
-    <Label id="date" text="1939" layoutX="218.0" layoutY="295.0"/>
+    <Label fx:id="date1" text="1939" layoutX="218.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="223.0" layoutY="490.0">
         <tooltip>
 
@@ -49,7 +49,7 @@
         </tooltip>               
     </Label>
     
-       <Label id="date" text="1942" layoutX="667.0" layoutY="295.0"/>
+    <Label id="date" text="1942" layoutX="667.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="670.0" layoutY="490.0">
         <tooltip>
 
@@ -58,7 +58,7 @@
     </Label>
     
     
-       <Label id="date" text="1943" layoutX="816.0" layoutY="295.0"/>
+    <Label id="date" text="1943" layoutX="816.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="819.0" layoutY="490.0">
         <tooltip>
 
@@ -67,7 +67,7 @@
     </Label>
     
     
-       <Label id="date" text="1944" layoutX="966.0" layoutY="295.0"/>
+    <Label id="date" text="1944" layoutX="966.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="968.0" layoutY="490.0">
         <tooltip>
 
@@ -84,7 +84,7 @@
 
 
 
-        <Button text="Appuie ici" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
+    <Button text="Appuie ici" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
 
 
 </AnchorPane>

@@ -1,4 +1,4 @@
-package simplytext;
+package simplytext.choix;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,11 +8,11 @@ import javafx.stage.Stage;
 import simplytext.friseChrono.controllerFriseChrono;
 
 
-public class MainSimplyText extends Application {
+public class mainChoix extends Application {
     
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("ViewSimplyText.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));
         Parent root = (Parent)loader.load();
         controllerFriseChrono monController = (controllerFriseChrono)loader.getController();
         monController.setStage(primaryStage);

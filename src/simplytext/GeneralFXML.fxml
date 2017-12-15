@@ -16,7 +16,34 @@
     </ImageView>
     <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
     
-   
+     <MenuBar id="menuBar" focusTraversable="true" >  
+        <menus>  
+            <Menu text="File">  
+                <items>  
+                    <MenuItem text="Open"/>  
+                    <MenuItem text="Save"/>  
+                    <MenuItem text="Save As"/>  
+                    <SeparatorMenuItem  />  
+                    <MenuItem text="Exit"/>  
+                </items>  
+            </Menu>  
+            <Menu text="JavaFX 2.0 Examples">  
+                <items>  
+                    <MenuItem text="Text Example"/>  
+                    <MenuItem text="Objects Example"/>  
+                    <MenuItem text="Animation Example"/>  
+                </items>  
+            </Menu>  
+            <Menu text="Help">  
+                <items>  
+                    <MenuItem text="Search" disable="true"/>  
+                    <MenuItem text="Online Manual" visible="false"/>  
+                    <SeparatorMenuItem />  
+                    <MenuItem text="About" />  
+                </items>  
+            </Menu>  
+        </menus>  
+</MenuBar> 
 
 </AnchorPane>
 
