@@ -24,67 +24,51 @@
         </ImageView>
     </VBox>
     
-    <Label fx:id="date1" text="1939" layoutX="218.0" layoutY="295.0"/>
+    <Label fx:id="date1" layoutX="218.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="223.0" layoutY="490.0">
         <tooltip>
-
             <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
-    
-    
-    <Label id="date" text="1940" layoutX="367.0" layoutY="295.0"/>
+       
+    <Label fx:id="date2" layoutX="367.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="372.0" layoutY="490.0">
         <tooltip>
-
             <Tooltip fx:id="tooltip2" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
     
-    <Label id="date" text="1941" layoutX="516.0" layoutY="295.0"/>
+    <Label fx:id="date3" layoutX="516.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="521.0" layoutY="490.0">
         <tooltip>
-
             <Tooltip fx:id="tooltip3" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
     
-    <Label id="date" text="1942" layoutX="667.0" layoutY="295.0"/>
+    <Label fx:id="date4" layoutX="667.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="670.0" layoutY="490.0">
         <tooltip>
-
             <Tooltip fx:id="tooltip4" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
     
     
-    <Label id="date" text="1943" layoutX="816.0" layoutY="295.0"/>
+    <Label fx:id="date5" layoutX="816.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="819.0" layoutY="490.0">
         <tooltip>
-
             <Tooltip fx:id="tooltip5" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
     
     
-    <Label id="date" text="1944" layoutX="966.0" layoutY="295.0"/>
+    <Label fx:id="date6" layoutX="966.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="968.0" layoutY="490.0">
         <tooltip>
 
             <Tooltip fx:id="tooltip6" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
-
-
-
-
-
-
-
-
-
-
-    <Button text="Appuie ici" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
+    <Button text="Montre" mnemonicParsing="false" prefWidth="100" onAction="#process" /> <!--lorsqu'on appuie sur le bouton, il y a la méthode qui se lance-->
 
 
 </AnchorPane>

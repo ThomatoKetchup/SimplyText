@@ -29,6 +29,7 @@ public class mainFriseChrono extends Application {
     }
 
     public static void main(String[] args) {
+        
         launch(args); //lancer jave FX et appel start
     }
 }

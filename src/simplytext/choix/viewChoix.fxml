@@ -27,7 +27,7 @@
         
     </VBox>
     
-    <TextArea layoutX = "600" layoutY = "400" fx:id= "textIn" prefWidth= "530" prefHeight = "250"/>
+    <TextArea wrapText="true" layoutX = "600" layoutY = "400" fx:id= "textIn" prefWidth= "530" prefHeight = "250"/>
     
     <HBox spacing = "50" layoutX = "950" layoutY = "700">
         <Button text = "Valider" onAction="#processEnter" />
@@ -38,6 +38,8 @@
     
     <Label id = "Label2" layoutX = "600" layoutY = "195" text = "Vous pouvez joindre un fichier..." />
     
-    <Label id = "Label2" layoutX = "600" layoutY = "330" text = "... ou écrire votre texte ici !" />      
+    <Label id = "Label2" layoutX = "600" layoutY = "330" text = "... ou écrire votre texte ici !" />   
+    
+ 
     
 </AnchorPane>

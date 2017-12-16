@@ -12,7 +12,7 @@ public class mainChoix extends Application {
     
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));      
         Parent root = (Parent)loader.load();
         controllerFriseChrono monController = (controllerFriseChrono)loader.getController();
         monController.setStage(primaryStage);
