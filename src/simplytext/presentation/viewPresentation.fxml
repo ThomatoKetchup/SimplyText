@@ -14,10 +14,14 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
-     <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
-        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
-    </ImageView>
-    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/> 
+    
+    <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0">
+        <Text wrappingWidth="200" text="un long texte avec beaucoup de mots mots mots petits mots pour vérifier que le saut à la lgine se fait au bonne endroit"/>
+        <!--WrappingWidth = largeur avant de sauter à la ligne-->
+    </VBox>
+    
+
+   <!-- <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/> 
     <Text id="titre" text="Bienvenu sur Simply Text !" AnchorPane.leftAnchor="400.0"
           AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="100.0"/>
     <Text id="info" text="Vous pouvez à présent réaliser une multitude de documents" 
@@ -29,8 +33,8 @@
     <Text id="info" text="Il vous suffit d'écrire votre texte ou de joindre un fichier"
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="350.0"/>
     <Text id="info" text="Et Simply Text se chargera du reste!"
-          AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>
-    <Button text="Documents Existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="40.0" />
+          AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>-->
+    <Button text="Documents Existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="40.0" /> 
     
         <Button text="Créer un document" prefWidth="200" AnchorPane.leftAnchor="900.0" AnchorPane.bottomAnchor="40.0"/>
 

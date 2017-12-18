@@ -27,7 +27,6 @@ public class controllerChoix {
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
-<<<<<<< HEAD
         
         controllerFriseChrono monControllerFrise = loader.getController();
         monControllerFrise.process(action);
