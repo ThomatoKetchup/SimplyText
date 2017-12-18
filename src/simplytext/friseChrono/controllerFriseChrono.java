@@ -54,9 +54,10 @@ public class controllerFriseChrono {
     @FXML
     Label date6;    
     @FXML
-    TextArea textIn;
-    
+    //TextArea textIn;
+        
     private Stage primaryStage;
+
     
     public void setStage(Stage s) {
 	this.primaryStage = s;
@@ -68,12 +69,11 @@ public class controllerFriseChrono {
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
-                date1.setText("1939");
 
 
     }
     
-    //@FXML
+    @FXML
     private void process(ActionEvent event) {
         tooltip1.setText("Le pacte de non-agression signé en 1939.");
         date1.setText("1939");
