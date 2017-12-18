@@ -21,7 +21,8 @@ public class controllerChoix {
     }
     
     public void processEnter(ActionEvent action) throws Exception {
-	Parent root = FXMLLoader.load(getClass().getResource("/simplytext/friseChrono/viewFriseChrono.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/friseChrono/viewFriseChrono.fxml"));
+	Parent root = loader.load();
 	Scene scene = new Scene(root);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
@@ -29,12 +30,10 @@ public class controllerChoix {
 <<<<<<< HEAD
         
         controllerFriseChrono monControllerFrise = loader.getController();
-        monControllerFrise.process();
+        monControllerFrise.process(action);
         
 
 
-=======
->>>>>>> 0560280dd54cab9dd257fded7648ab3c230f0450
     }
     
  
