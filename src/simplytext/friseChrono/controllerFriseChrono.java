@@ -57,21 +57,8 @@ public class controllerFriseChrono {
     //TextArea textIn;
         
     private Stage primaryStage;
-
     
-    public void setStage(Stage s) {
-	this.primaryStage = s;
-    }
     
-    public void processEnter(ActionEvent action) throws Exception {
-	Parent root = FXMLLoader.load(getClass().getResource("viewFriseChrono.fxml"));
-	Scene scene = new Scene(root);
-        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
-	this.primaryStage.setScene(scene);
-	this.primaryStage.show();
-
-
-    }
     
     @FXML
     private void process(ActionEvent event) {

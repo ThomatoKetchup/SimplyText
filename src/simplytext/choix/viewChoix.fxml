@@ -29,9 +29,8 @@
     
     <TextArea wrapText="true" layoutX = "600" layoutY = "400" fx:id= "textIn" prefWidth= "530" prefHeight = "250"/>
     
-    <HBox spacing = "50" layoutX = "950" layoutY = "700">
+    <HBox spacing = "50" layoutX = "1050" layoutY = "700">
         <Button text = "Valider" onAction="#processEnter" />
-        <!--<Button text = "Annuler" onAction="#processCancel" />-->
     </HBox>
     
     <Button layoutX = "750" layoutY = "260" text = "Joindre un fichier" />
