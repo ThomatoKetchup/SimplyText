@@ -14,7 +14,10 @@ import javafx.stage.Stage;
 public class mainPresentation extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
+
+
         Font.loadFont(getClass().getResourceAsStream("/simplytext/style/Blueshire-Regular.ttf"), 14);
+
         
         Parent root = FXMLLoader.load(getClass().getResource("viewPresentation.fxml")); 
         Scene scene = new Scene(root);
