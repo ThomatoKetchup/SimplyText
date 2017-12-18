@@ -18,7 +18,6 @@
         <fx:define>
             <ToggleGroup fx:id = "choix"/>
         </fx:define>
-    
         <RadioButton text="Fiche de cours" toggleGroup="$choix"/>
         <RadioButton text="Fiche de lecture" toggleGroup="$choix"/>
         <RadioButton text="Frise chronologique" toggleGroup="$choix"/>

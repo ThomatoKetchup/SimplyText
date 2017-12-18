@@ -56,25 +56,10 @@ public class controllerFriseChrono {
     @FXML
     //TextArea textIn;
         
-    private Stage primaryStage;
+    //private Stage primaryStage;
 
-    
-    public void setStage(Stage s) {
-	this.primaryStage = s;
-    }
-    
-    public void processEnter(ActionEvent action) throws Exception {
-	Parent root = FXMLLoader.load(getClass().getResource("viewFriseChrono.fxml"));
-	Scene scene = new Scene(root);
-        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
-	this.primaryStage.setScene(scene);
-	this.primaryStage.show();
-
-
-    }
-    
-    @FXML
-    private void process(ActionEvent event) {
+    //@FXML
+    public void process() {
         tooltip1.setText("Le pacte de non-agression signé en 1939.");
         date1.setText("1939");
         tooltip2.setText("");
@@ -93,7 +78,6 @@ public class controllerFriseChrono {
 
         tooltip6.setText("saluudddddddddddjjjjjjjjjjjjjjjjjjjddddddddddddddduut");
         date6.setText("1944");
-
     }
 
 
