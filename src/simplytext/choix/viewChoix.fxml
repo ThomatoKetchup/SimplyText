@@ -8,7 +8,7 @@
 <?import javafx.collections.*?>
 
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.friseChrono.controllerFriseChrono" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.choix.controllerChoix" xmlns:fx="http://javafx.com/fxml/1">
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
