@@ -8,6 +8,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.text.Text?>
+<?import javafx.beans.property.DoubleProperty?>
 
 
 
@@ -21,15 +22,13 @@
 
 </AnchorPane>
 
-        <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
-        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
-    </ImageView>
+   
     <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
     
     <Text id = "titre" text = "Bienvenue sur Simply Text !" layoutX = "400" layoutY = "220"/>
     
     <VBox AnchorPane.leftAnchor="450.0"  AnchorPane.topAnchor="260.0">
-        <Text id = "info" wrappingWidth="350" text = "Vous pouvez à présent réaliser une multitude de documents (tels que des fiches de cours, des fiches de lecture, et bien plus encore) en seulement quelques clics ! Il vous suffit d'écrire votre texte ou de joindre un fichier et Simply Text se chargera du reste !" />
+        <Text lineSpacing="25" id = "info" wrappingWidth="350" text = "Vous pouvez à présent réaliser une multitude de documents (tels que des fiches de cours, des fiches de lecture, et bien plus encore) en seulement quelques clics ! Il vous suffit d'écrire votre texte ou de joindre un fichier et Simply Text se chargera du reste !" />
         <!--WrappingWidth = largeur avant de sauter à la ligne-->
     </VBox>
     
@@ -47,7 +46,7 @@
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="350.0"/>
     <Text id="info" text="Et Simply Text se chargera du reste!"
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>-->
-    <Button text="Documents Existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
+    <Button text="Voir les documents existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
     
     <Button text="Créer un document" prefWidth="200" AnchorPane.rightAnchor="300.0" AnchorPane.bottomAnchor="90.0"/>
 
