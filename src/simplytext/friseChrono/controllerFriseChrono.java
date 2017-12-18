@@ -14,8 +14,11 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
 
@@ -50,6 +53,8 @@ public class controllerFriseChrono {
     Tooltip tooltip6;
     @FXML
     Label date6;    
+    @FXML
+    TextArea textIn;
     
     private Stage primaryStage;
     
@@ -58,17 +63,17 @@ public class controllerFriseChrono {
     }
     
     public void processEnter(ActionEvent action) throws Exception {
-
-
 	Parent root = FXMLLoader.load(getClass().getResource("viewFriseChrono.fxml"));
 	Scene scene = new Scene(root);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
+                date1.setText("1939");
+
 
     }
     
-    @FXML
+    //@FXML
     private void process(ActionEvent event) {
         tooltip1.setText("Le pacte de non-agression signé en 1939.");
         date1.setText("1939");
