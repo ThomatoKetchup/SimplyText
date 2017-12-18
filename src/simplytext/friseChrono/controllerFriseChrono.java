@@ -56,10 +56,19 @@ public class controllerFriseChrono {
     @FXML
     //TextArea textIn;
         
+<<<<<<< HEAD
     //private Stage primaryStage;
 
     //@FXML
     public void process() {
+=======
+    private Stage primaryStage;
+    
+    
+    
+    @FXML
+    private void process(ActionEvent event) {
+>>>>>>> 0560280dd54cab9dd257fded7648ab3c230f0450
         tooltip1.setText("Le pacte de non-agression signé en 1939.");
         date1.setText("1939");
         tooltip2.setText("");
