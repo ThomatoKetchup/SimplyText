@@ -15,8 +15,10 @@
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
-    <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0">
-        <Text wrappingWidth="200" text="un long texte avec beaucoup de mots mots mots petits mots pour vérifier que le saut à la lgine se fait au bonne endroit"/>
+    <Text id = "titre" text = "Bienvenue sur Simply Text !" layoutX = "400" layoutY = "220"/>
+    
+    <VBox AnchorPane.leftAnchor="450.0"  AnchorPane.topAnchor="260.0">
+        <Text id = "info" wrappingWidth="350" text = "Vous pouvez à présent réaliser une multitude de documents (tels que des fiches de cours, des fiches de lecture, et bien plus encore) en seulement quelques clics ! Il vous suffit d'écrire votre texte ou de joindre un fichier et Simply Text se chargera du reste !" />
         <!--WrappingWidth = largeur avant de sauter à la ligne-->
     </VBox>
     
@@ -34,9 +36,9 @@
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="350.0"/>
     <Text id="info" text="Et Simply Text se chargera du reste!"
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>-->
-    <Button text="Documents Existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="40.0" /> 
+    <Button text="Documents Existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
     
-        <Button text="Créer un document" prefWidth="200" AnchorPane.leftAnchor="900.0" AnchorPane.bottomAnchor="40.0"/>
+    <Button text="Créer un document" prefWidth="200" AnchorPane.rightAnchor="300.0" AnchorPane.bottomAnchor="90.0"/>
 
 
 </AnchorPane>
