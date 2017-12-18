@@ -13,7 +13,18 @@
 
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
-    <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
+    <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
+        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
+    </ImageView>
+    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
+
+</AnchorPane>
+
+        <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
+        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
+    </ImageView>
+    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
     
     <Text id = "titre" text = "Bienvenue sur Simply Text !" layoutX = "400" layoutY = "220"/>
     

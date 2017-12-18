@@ -6,14 +6,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.collections.*?>
+<?import javafx.scene.image.*?>
 
 
 <AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.choix.controllerChoix" xmlns:fx="http://javafx.com/fxml/1">
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
-    
+        <ImageView fx:id="creervotre" fitHeight="350.0" fitWidth="200.0"  pickOnBounds="true" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="220.0" >
+        <Image   url="@/simplytext/images/background.jpg" preserveRatio="true" smooth="true" />
+    </ImageView>
     <Label id = "Label1" layoutX = "100.0" layoutY = "225" text = "Créer votre..." />
-    
+
     <VBox spacing = "20" layoutX ="100.0" layoutY ="295.0">
         <fx:define>
             <ToggleGroup fx:id = "choix"/>

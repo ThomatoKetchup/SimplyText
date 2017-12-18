@@ -10,9 +10,9 @@
 
 #pane{
     -fx-background-image: url("/simplytext/images/background.jpg");        
-    -fx-background-repeat: stretch;   
-    /*-fx-background-size: 900 506;*/
-    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+    -fx-background-size:  1300 120;
+    -fx-background-position: top ;
 }
 
 
@@ -44,4 +44,37 @@
 .radio-button {
     -fx-text-fill: black;
     -fx-font-size: 10pt;
+    
 }
+
+.button {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+.menu-bar{
+    -fx-background-color: grey;
+    -fx-border-color:  #ffff00;
+ -fx-border-width: 2
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 15 pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #dedede;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #99cc00;
+}
+
+#creervotre{
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);}
