@@ -73,6 +73,7 @@
 
 
 <Label text="saluuut les amis"/>
+<Label text="saluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuut"/>
     <Button onAction="#returnToChoix" id="return" text="Retour" prefWidth="200" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="150.0"/>
 
 </AnchorPane>
