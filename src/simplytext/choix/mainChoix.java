@@ -14,12 +14,11 @@ public class mainChoix extends Application {
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));      
         Parent root = (Parent)loader.load();
+        Scene scene = new Scene(root);              
         controllerChoix monController = (controllerChoix)loader.getController();
         monController.setStage(primaryStage);
-        Scene scene = new Scene(root);
         scene.getStylesheets().addAll(this.getClass().getResource("/simplytext/style/style.css").toExternalForm());
         primaryStage.setScene(scene);
-
         primaryStage.show();
         
         
