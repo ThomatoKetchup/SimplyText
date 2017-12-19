@@ -24,6 +24,8 @@ public class controllerChoix {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/friseChrono/viewFriseChrono.fxml"));
 	Parent root = loader.load();
 	Scene scene = new Scene(root);
+        controllerFriseChrono monController = (controllerFriseChrono)loader.getController();
+        monController.setStage(primaryStage);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
@@ -34,6 +36,8 @@ public class controllerChoix {
 
 
     }
+    
+    
     
  
     

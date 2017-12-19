@@ -68,8 +68,14 @@
             <Tooltip fx:id="tooltip6" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
         </tooltip>               
     </Label>
+    
+    <Button text="Partager ce document" prefWidth="200" AnchorPane.rightAnchor="540.0" AnchorPane.leftAnchor="540.0" AnchorPane.bottomAnchor="90.0"/>
 
+
+<<<<<<< HEAD
 <Label text="saluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuut"/>
+    <Button onAction="#returnToChoix" id="return" text="Retour" prefWidth="200" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="150.0"/>
+
 </AnchorPane>
 
 

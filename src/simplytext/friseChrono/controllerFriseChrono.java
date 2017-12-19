@@ -21,6 +21,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
+import simplytext.choix.controllerChoix;
 
 public class controllerFriseChrono {
     
@@ -83,6 +84,30 @@ public class controllerFriseChrono {
 
         tooltip6.setText("saluudddddddddddjjjjjjjjjjjjjjjjjjjddddddddddddddduut");
         date6.setText("1944");
+    }
+    
+    
+    private Stage primaryStage;
+
+    
+    public void setStage(Stage s) {
+	this.primaryStage = s;
+    }
+    
+    public void returnToChoix(ActionEvent action) throws Exception {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));
+	Parent root = loader.load();
+        controllerChoix monController = (controllerChoix)loader.getController();
+        monController.setStage(primaryStage);
+	Scene scene = new Scene(root);
+        scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
+	this.primaryStage.setScene(scene);
+	this.primaryStage.show();
+        
+
+        
+
+
     }
 
 
