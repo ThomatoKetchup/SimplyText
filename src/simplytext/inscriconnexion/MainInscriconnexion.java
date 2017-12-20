@@ -10,17 +10,16 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import simplytext.inscriconnexion.ControllerInscriconnexion;
+import simplytext.inscriconnexion.controllerInscriConnexion;
 
 
-public class MainInscriconnexion extends Application {
+public class mainInscriConnexion extends Application {
     
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("ViewInscriconnexion.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("viewInscriConnexion.fxml"));
         Parent root = (Parent)loader.load();
-        //ControllerInscriconnexion monController = (ControllerInscriconnexion)loader.getController();
-        //monController.setStage(primaryStage);
+
         Scene scene = new Scene(root);
         scene.getStylesheets().addAll(this.getClass().getResource("/simplytext/style/style.css").toExternalForm());
         primaryStage.setScene(scene);

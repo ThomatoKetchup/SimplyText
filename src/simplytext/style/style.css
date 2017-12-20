@@ -93,12 +93,12 @@
     -fx-padding: 10 15 10 15;
 }
 
-<<<<<<< HEAD
+
 #Label2 {
     -fx-font-family: Comic-Sans-MS;
     -fx-text-fill: black;
     -fx-font-size: 12pt;
-=======
+
 #Label3 {
     -fx-font-family: Arial;
     -fx-text-fill: #FF1493;
@@ -116,7 +116,4 @@
     -fx-text-fill: black;
     -fx-font-size: 10pt;
     text-decoration: underline;
-    
-   
->>>>>>> f68ff46f51e1b19d5edbba3e24e82e23b9aecbec
 }

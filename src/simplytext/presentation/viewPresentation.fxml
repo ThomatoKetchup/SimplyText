@@ -13,7 +13,7 @@
 
 
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0"  fx:controller="simplytext.presentation.controllerPresentation" xmlns:fx="http://javafx.com/fxml/1">
     <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
     <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
         <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
@@ -48,7 +48,7 @@
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>-->
     <Button text="Voir les documents existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
     
-    <Button text="Créer un document" prefWidth="200" AnchorPane.rightAnchor="300.0" AnchorPane.bottomAnchor="90.0"/>
+    <Button onAction="#goToInscriConnexion" text="Créer un document" prefWidth="200" AnchorPane.rightAnchor="300.0" AnchorPane.bottomAnchor="90.0" />
 
 
 </AnchorPane>
