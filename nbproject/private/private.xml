@@ -6,9 +6,16 @@
             <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/choix/controllerChoix.java</file>
             <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/friseChrono/controllerFriseChrono.java</file>
             <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/style/style.css</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/presentation/mainPresentation.java</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/choix/mainChoix.java</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/friseChrono/mainFriseChrono.java</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/GeneralFXML.fxml</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/choix/viewChoix.fxml</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/presentation/controllePresentation.java</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/friseChrono/modelFriseChrono.java</file>
             <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/presentation/viewPresentation.fxml</file>
             <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/friseChrono/viewFriseChrono.fxml</file>
-            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/choix/viewChoix.fxml</file>
+            <file>file:/C:/Users/Nguye/Documents/GitHub/SimplyText/src/simplytext/presentation/modelPresentation.java</file>
         </group>
     </open-files>
 </project-private>

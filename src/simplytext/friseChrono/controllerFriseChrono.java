@@ -20,6 +20,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.Tooltip;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import simplytext.choix.controllerChoix;
 
@@ -55,6 +56,7 @@ public class controllerFriseChrono {
     @FXML
     Label date6;    
     @FXML
+    Text titre;
     //TextArea textIn;
         
     //private Stage primaryStage;
@@ -66,23 +68,27 @@ public class controllerFriseChrono {
     
     //@FXML
     public void process(ActionEvent event) {
-        tooltip1.setText("Le pacte de non-agression signé en 1939.");
+        
+        titre.setText("La seconde guerre mondiale");
+        tooltip1.setText("1939 : Le pacte de non-agression signé.");
         date1.setText("1939");
         tooltip2.setText("");
         date2.setText("1940");
 
-        tooltip3.setText("En Europe, l'Allemagne envahit l'URSS le 22 juin 1941. En Asie, le Japon bombarde le port de Pearl Harbor aux États-Unis le 7 décembre 1941, provoquant l'entrée en guerre des États-Unis." );
+        tooltip3.setText("22 juin 1941, Europe : l'Allemagne envahit l'URSS1 en rompant le pacte de non-agression.\n"
+                + "\n7 décemble 1941, Asie : le Japon bombarde le port de Pearl Harbor provoquant l'entrée en guerre des États-Unis. \n " );
         date3.setText("1941");
 
 
-        tooltip4.setText("La fin de l'année 1942 peut être considérée comme le tournant de la guerre.");
+        tooltip4.setText("Juin 1942, Pacifique : victoire de Midway des américains face aux japonais.");
         date4.setText("1942");
 
         
-        tooltip5.setText("Staline donne l'ordre aux Russes de résister à tout prix. C'est cette démonstration qui va permettre à l'URSS de remporter la très symbolique victoire de Stalingrad en février 1943.");
+        tooltip5.setText("Février 1943, Stalingrand : victoire de Stalingrad \n"
+                + "\nFévrier 1943, Pacifique : victoire de Guadalcanal des américains face aux japonais. ");
         date5.setText("1943");
 
-        tooltip6.setText("saluudddddddddddjjjjjjjjjjjjjjjjjjjddddddddddddddduut");
+        tooltip6.setText("");
         date6.setText("1944");
     }
     
