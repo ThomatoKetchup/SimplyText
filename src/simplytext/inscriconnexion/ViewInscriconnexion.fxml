@@ -6,11 +6,18 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.collections.*?>
+<?import javafx.scene.image.*?>
 
 
 <AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.inscriconnexion.controllerInscriConnexion" xmlns:fx="http://javafx.com/fxml/1">
     
-    <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    <AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml">
+        <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="-80.0">
+            <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
+        </ImageView>
+        <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
+
+    </AnchorPane>
     
     <HBox spacing = "20" layoutX ="300.0" layoutY ="200.0"> 
     
@@ -20,7 +27,7 @@
       
     </HBox>
     
-     <HBox spacing = "20" layoutX ="600.0" layoutY ="200.0">
+    <HBox spacing = "20" layoutX ="600.0" layoutY ="200.0">
     
         <Label id="Label3" text="Mot de passe" />
         <TextArea  fx:id= "textIn2" prefWidth= "160" prefHeight = "35"/>
@@ -28,8 +35,8 @@
       
     </HBox>
     <VBox  spacing="15" layoutX = "1020" layoutY = "205">
-    <Button  prefWidth= "120" prefHeight = "30" text = "Se connecter" /> <!--onAction="#processEnter" j'ai suppr ça-->
-    <Label id="Label6" text="Mot de passe oublié?" />
+        <Button onAction="#goToChoix" prefWidth= "120" prefHeight = "30" text = "Se connecter" /> <!--onAction="#processEnter" j'ai suppr ça-->
+        <Label id="Label6" text="Mot de passe oublié?" />
     </VBox>
     
     <Label id = "Label4" layoutX = "400" layoutY = "350" text = "Vous n'avez pas encore de compte? Créer un compte" />

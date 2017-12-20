@@ -10,7 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import simplytext.inscriconnexion.controllerInscriConnexion;
+import simplytext.choix.controllerChoix;
 
 
 public class mainInscriConnexion extends Application {
@@ -19,7 +19,8 @@ public class mainInscriConnexion extends Application {
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("viewInscriConnexion.fxml"));
         Parent root = (Parent)loader.load();
-
+        controllerChoix monController = (controllerChoix) loader.getController();
+        monController.setStage(primaryStage);
         Scene scene = new Scene(root);
         scene.getStylesheets().addAll(this.getClass().getResource("/simplytext/style/style.css").toExternalForm());
         primaryStage.setScene(scene);

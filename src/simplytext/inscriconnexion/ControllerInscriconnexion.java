@@ -3,6 +3,7 @@ package simplytext.inscriconnexion;
 
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
 
 import javafx.fxml.FXMLLoader;
@@ -20,20 +21,17 @@ public class controllerInscriConnexion {
 	this.primaryStage = s;
     }
     
-    /*public void processEnter(ActionEvent action) throws Exception {
+        @FXML
+    public void goToChoix(ActionEvent action) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/choix/viewChoix.fxml"));
-	Parent root = loader.load();
-	Scene scene = new Scene(root);
+        Parent root = loader.load();
+        controllerChoix monController = (controllerChoix) loader.getController();
+        monController.setStage(primaryStage);
+        Scene scene = new Scene(root);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
-	this.primaryStage.setScene(scene);
-	this.primaryStage.show();
-        
-        controllerChoix monControllerchoix = loader.getController();
-        monControllerchoix.process(action);
-        
-
-
-    }*/
+        this.primaryStage.setScene(scene);
+        this.primaryStage.show();
+    }
     
  
     
