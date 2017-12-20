@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" fx:controller="simplytext.inscriconnexion.ControllerInscriconnexion" xmlns:fx="http://javafx.com/fxml/1">
+    
+    <fx:include source="/simplytext/GeneralFXML.fxml"/> 
+    
+    <HBox spacing = "20" layoutX ="300.0" layoutY ="200.0"> 
+    
+        <Label id="Label3"  text="Login" />
+        <TextArea  fx:id= "textIn1" prefWidth= "160" prefHeight = "35"/>
+        
+      
+    </HBox>
+    
+     <HBox spacing = "20" layoutX ="600.0" layoutY ="200.0">
+    
+        <Label id="Label3" text="Mot de passe" />
+        <TextArea  fx:id= "textIn2" prefWidth= "160" prefHeight = "35"/>
+        
+      
+    </HBox>
+    <VBox  spacing="15" layoutX = "1020" layoutY = "205">
+    <Button  prefWidth= "120" prefHeight = "30" text = "Se connecter" /> <!--onAction="#processEnter" j'ai suppr ça-->
+    <Label id="Label6" text="Mot de passe oublié?" />
+    </VBox>
+    
+    <Label id = "Label4" layoutX = "400" layoutY = "350" text = "Vous n'avez pas encore de compte? Créer un compte" />
+    
+    <HBox spacing = "162" layoutX ="450" layoutY ="450"> 
+    
+        <Label id="Label3"  layoutX ="450" layoutY ="450" text="Nom" />
+        <TextArea  fx:id= "textIn3" prefWidth= "250" prefHeight = "35"/>
+        
+      
+    </HBox>
+    
+    <HBox spacing = "125" layoutX ="450" layoutY ="510"> 
+    
+        <Label id="Label3"  text="Prénom" />
+        <TextArea  fx:id= "textIn4" prefWidth= "250" prefHeight = "35"/>
+        
+      
+    </HBox>
+    
+    <HBox spacing = "63" layoutX ="450" layoutY ="570"> 
+    
+        <Label id="Label3"  text="Adresse mail" />
+        <TextArea  fx:id= "textIn7"  prefWidth= "250" prefHeight = "35"/>
+        
+      
+    </HBox>
+    
+    <HBox spacing = "152" layoutX ="450" layoutY ="630"> 
+    
+        <Label id="Label3"  text="Login" />
+        <TextArea  fx:id= "textIn5"  prefWidth= "250" prefHeight = "35"/>
+        
+      
+    </HBox>
+    
+    
+    <HBox spacing = "50" layoutX ="450" layoutY ="690"> 
+    
+        <Label id="Label3"  text="Mot de passe " />
+        <TextArea  fx:id= "textIn6"  prefWidth= "250" prefHeight = "35"/>
+        
+    </HBox>
+    
+    <Button  layoutX = "1020" layoutY = "750" prefWidth= "120" prefHeight = "30" text = "S'insrire" /> <!--onAction="#processEnter" j'ai suppr cette ligne-->
+    
+    
+    
+</AnchorPane>
