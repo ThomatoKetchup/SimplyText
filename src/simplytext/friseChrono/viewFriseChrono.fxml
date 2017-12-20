@@ -74,8 +74,7 @@
     <Button text="Partager ce document" prefWidth="200" AnchorPane.rightAnchor="540.0" AnchorPane.leftAnchor="540.0" AnchorPane.bottomAnchor="90.0"/>
 
 
-<Label text="saluuut les amis"/>
-<Label text="saluuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuut"/>
+
 <Label text="AUREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEVOIIIIIIIIIR"/>
     <Button onAction="#returnToChoix" id="return" text="Retour" prefWidth="200" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="150.0"/>
 
