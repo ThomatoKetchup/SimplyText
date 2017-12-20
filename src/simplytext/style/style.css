@@ -1,12 +1,10 @@
 @font-face {
     src: url('Blueshire-Regular.ttf');
-
 }
 
 @font-face {
     src: url('Comic-Sans-MS.ttf');
 }
-
 
 #pane{
     -fx-background-image: url("/simplytext/images/background.jpg");        
@@ -20,19 +18,20 @@
     -fx-font-family: Blueshire Regular;
     -fx-font-size: 25pt;
     -fx-text-fill: black;
+}
 
-
+#titre2{
+    -fx-font-family: Blueshire Regular;
+    -fx-font-size: 15pt;
+    -fx-text-fill: red;
 }
 
 #repere{
-
     -fx-font-size: 25pt;
-
 }
 
 #info{
     -fx-font-size: 12pt;
-
 }
 
 #Label1 {
@@ -44,12 +43,10 @@
 .radio-button {
     -fx-text-fill: black;
     -fx-font-size: 10pt;
-    
 }
 
 .button {
-        -fx-font-size: 13px;
-
+    -fx-font-size: 13px;
     -fx-background-color:
         linear-gradient(#f0ff35, #a9ff00),
         radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
@@ -61,15 +58,13 @@
 
 .menu-bar{
     -fx-background-color: grey;
- -fx-border-width: 2
-
+    -fx-border-width: 2
 }
 
 .menu-bar .label {
     -fx-font-size: 15 pt;
     -fx-font-family: "Segoe UI Light";
     -fx-text-fill: #dedede;
-
 }
 
 
@@ -77,8 +72,9 @@
     -fx-background-color: #bc784e;
 }
 
-#creervotre{
--fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);}
+#creervotre {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
 
 
 #return {
@@ -95,4 +91,10 @@
     -fx-text-fill: linear-gradient(white, #d0d0d0);
     -fx-font-size: 11px;
     -fx-padding: 10 15 10 15;
+}
+
+#Label2 {
+    -fx-font-family: Comic-Sans-MS;
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
 }

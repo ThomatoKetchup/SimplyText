@@ -105,13 +105,10 @@ public class controllerFriseChrono {
 	Parent root = loader.load();
         controllerChoix monController = (controllerChoix)loader.getController();
         monController.setStage(primaryStage);
-	Scene scene = new Scene(root);
+        Scene scene = new Scene(root);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
 	this.primaryStage.setScene(scene);
 	this.primaryStage.show();
-        
-
-        
 
 
     }

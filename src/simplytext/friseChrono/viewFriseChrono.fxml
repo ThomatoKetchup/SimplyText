@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-    <?import javafx.scene.shape.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.paint.Color?>
 
@@ -19,6 +19,8 @@
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
     <Text fx:id = "titre" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="240.0"/>
+    
+    <Text id = "titre2" text = "Document créé avec succès !" layoutX = "470" layoutY = "200"/>
 
     
     <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0">

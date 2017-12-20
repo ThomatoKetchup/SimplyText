@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import simplytext.friseChrono.controllerFriseChrono;
 
 
 public class mainChoix extends Application {
@@ -21,8 +20,6 @@ public class mainChoix extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
         
-        
-
     }
     
     public static void main(String[] args) {
