@@ -33,12 +33,8 @@ public class controllerChoix {
         controllerFriseChrono monControllerFrise = loader.getController();
         monControllerFrise.process(action);
         
-
-
     }
-    
-    
-    
- 
-    
+
+      
+     
 }
