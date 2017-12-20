@@ -96,3 +96,24 @@
     -fx-font-size: 11px;
     -fx-padding: 10 15 10 15;
 }
+
+#Label3 {
+    -fx-font-family: Arial;
+    -fx-text-fill: #FF1493;
+    -fx-font-size: 20pt;
+}
+#Label4 {
+    -fx-font-family: Arial;
+    -fx-text-fill: black;
+    -fx-font-size: 15pt;
+    -fx-font-style:italic;
+   
+}
+#Label6 {
+    -fx-font-family: Arial;
+    -fx-text-fill: black;
+    -fx-font-size: 10pt;
+    text-decoration: underline;
+    
+   
+}
