@@ -18,6 +18,9 @@
     
     <fx:include source="/simplytext/GeneralFXML.fxml"/> 
     
+    <Text fx:id = "titre" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="240.0"/>
+
+    
     <VBox AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0">
         <ImageView fx:id="image" fitHeight="1000.0" fitWidth="1000.0" preserveRatio="true"  pickOnBounds="true">
             <Image fx:id="frise" url="@/simplytext/images/frisechrono.png" preserveRatio="true" smooth="true" />
@@ -27,45 +30,44 @@
     <Label fx:id="date1" layoutX="218.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="223.0" layoutY="490.0">
         <tooltip>
-            <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip1" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
        
     <Label fx:id="date2" layoutX="367.0" layoutY="295.0"/>
     <Label id="repere" text="⦁" layoutX="372.0" layoutY="490.0">
         <tooltip>
-            <Tooltip fx:id="tooltip2" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip2" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
     
     <Label fx:id="date3" layoutX="516.0" layoutY="295.0"/>
-    <Label id="repere" text="⦁" layoutX="521.0" layoutY="490.0">
+    <Label id="repere" text="⦁" layoutX="523.0" layoutY="490.0">
         <tooltip>
-            <Tooltip fx:id="tooltip3" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip3" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
     
     <Label fx:id="date4" layoutX="667.0" layoutY="295.0"/>
-    <Label id="repere" text="⦁" layoutX="670.0" layoutY="490.0">
+    <Label id="repere" text="⦁" layoutX="675.0" layoutY="490.0">
         <tooltip>
-            <Tooltip fx:id="tooltip4" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip4" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
     
     
     <Label fx:id="date5" layoutX="816.0" layoutY="295.0"/>
-    <Label id="repere" text="⦁" layoutX="819.0" layoutY="490.0">
+    <Label id="repere" text="⦁" layoutX="826.0" layoutY="490.0">
         <tooltip>
-            <Tooltip fx:id="tooltip5" wrapText="true" id="info" maxHeight="300.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip5" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
     
     
     <Label fx:id="date6" layoutX="966.0" layoutY="295.0"/>
-    <Label id="repere" text="⦁" layoutX="968.0" layoutY="490.0">
+    <Label  id="repere" text="⦁" layoutX="977.0" layoutY="490.0">
         <tooltip>
-
-            <Tooltip fx:id="tooltip6" wrapText="true" id="info" maxHeight="200.0" maxWidth="150"/>
+            <Tooltip fx:id="tooltip6" wrapText="true" id="info" maxHeight="400.0" maxWidth="400"/>
         </tooltip>               
     </Label>
     
