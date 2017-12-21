@@ -21,7 +21,7 @@ public class GUI {
         FXCollections.observableArrayList(
             new PersonEntry("25/10/2015", "La Seconde Guerre Mondiale", "Frise Chronologique"),
             new PersonEntry("23/10/2015", "SVT_Les roches", "Fiche de cours"),
-            new PersonEntry("30/11/2015", "La Chine", "Carte géographique")
+            new PersonEntry("30/11/2015", "La Chine", "Carte geographique")
         );
     
     final HBox hb = new HBox();

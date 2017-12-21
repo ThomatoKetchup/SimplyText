@@ -46,7 +46,7 @@
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="350.0"/>
     <Text id="info" text="Et Simply Text se chargera du reste!"
           AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="400.0"/>-->
-    <Button text="Voir les documents existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
+    <Button onAction="#goToDossierExistants" text="Voir les documents existants" prefWidth="200" AnchorPane.leftAnchor="300.0" AnchorPane.bottomAnchor="90.0" /> 
     
     <Button onAction="#goToInscriConnexion" text="Créer un document" prefWidth="200" AnchorPane.rightAnchor="300.0" AnchorPane.bottomAnchor="90.0" />
 

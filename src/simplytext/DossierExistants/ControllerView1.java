@@ -2,8 +2,16 @@ package simplytext.DossierExistants;
 
 
 import javafx.fxml.FXML;
+import javafx.stage.Stage;
 
 public class ControllerView1 {
+    
+        private Stage primaryStage;
+
+    public void setStage(Stage s) {
+        this.primaryStage = s;
+    }
+
 	@FXML
 	private void AffichageFiches () {
 		new Thread() {

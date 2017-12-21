@@ -101,7 +101,7 @@
 }
 #Label3 {
     -fx-font-family: Arial;
-    -fx-text-fill: #FF1493;
+    -fx-text-fill: #bc784e;
     -fx-font-size: 20pt;
 }
 #Label4 {
@@ -116,4 +116,10 @@
     -fx-text-fill: black;
     -fx-font-size: 10pt;
     text-decoration: underline;
+}
+
+
+.toggleButton{
+    
+    
 }

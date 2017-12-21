@@ -4,18 +4,28 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/DossierExistants/view1.fxml</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/DossierExistants/MainTest.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/presentation/controllerPresentation.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/GeneralFXML.fxml</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/choix/controllerChoix.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/presentation/mainPresentation.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/inscriconnexion/controllerInscriConnexion.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/friseChrono/mainFriseChrono.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/DossierExistants/view1.fxml</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/presentation/viewPresentation.fxml</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/choix/viewChoix.fxml</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/inscriconnexion/mainInscriConnexion.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/friseChrono/viewFriseChrono.fxml</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/DossierExistants/GUI.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/friseChrono/modelFriseChrono.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/DossierExistants/MainTest.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/friseChrono/controllerFriseChrono.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/DossierExistants/ControllerView1.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/inscriconnexion/viewInscriConnexion.fxml</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/choix/mainChoix.java</file>
             <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/DossierExistants/App.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/DossierExistants/App.java</file>
+            <file>file:/C:/Users/nguye/Documents/NetBeansProjects/SimplyText/src/simplytext/DossierExistants/ControllerView1.java</file>
         </group>
     </open-files>
 </project-private>

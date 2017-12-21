@@ -8,8 +8,8 @@
 <?import javafx.scene.layout.*?>
 
             
-<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ControllerView1">
-		    <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-70.0" AnchorPane.topAnchor="-80.0" >
+<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml" fx:controller="simplytext.DossierExistants.ControllerView1">
+		<!-- <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-70.0" AnchorPane.topAnchor="-80.0" >
 		        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
 		    </ImageView>
 		    
@@ -21,10 +21,24 @@
 		            <Menu text="Créer un nouveau document"/>  
 					<Menu text="Voir documents créés"/>  
 				</menus>  
-			</MenuBar> 
+			</MenuBar> -->
+   
+<ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-70.0" AnchorPane.topAnchor="-80.0" >
+        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
+    </ImageView>
+    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
+    
+     <MenuBar id="Accueil" focusTraversable="true" AnchorPane.leftAnchor="435" AnchorPane.rightAnchor="435">  
+        <menus>  
+            <Menu text="Accueil"/>  
 
+            <Menu text="Créer un nouveau document"/>  
 
+            <Menu text="Voir documents créés"/>  
+            
 
+        </menus>  
+     </MenuBar>
 
 	<children>
 <!-- MENU TRI -->
@@ -41,14 +55,13 @@
      	  
 <!-- BARRE DE RECHERCHE -->	     	  
 			<ImageView fitHeight="25.0" fitWidth="25.0" layoutX="184.5" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
-			 		<image>
-			     		<Image url="@/simplytext/images/recherche.png" />
-			  		</image>
+			     		<!--<Image url="@/simplytext/images/recherche.png" />-->
+			  	
 			</ImageView>
 			
 			<TextField fx:id="input" layoutX="209.0" layoutY="213.0" prefHeight="26.0" prefWidth="182.0" promptText="search" />
 			
-			<ToggleButton fx:id="recherche" layoutX="391.0" layoutY="213.0" text="valider"/>
+			<Button fx:id="recherche" layoutX="391.0" layoutY="213.0" text="valider"/>
 			
 			
 			
@@ -76,7 +89,7 @@
 			<AnchorPane layoutX="465.0" layoutY="309.0" prefHeight="387.0" prefWidth="715.0">
 				<children>
       				
-      					<ToggleButton layoutX="300" layoutY="100" text="Cliquer ici pour afficher les listes déjà crées" onAction="#AffichageFiches"/>
+      					<Button layoutX="300" layoutY="100" text="Cliquer ici pour afficher les listes déjà crées" onAction="#AffichageFiches"/>
       				
 	      		</children>
 	      	</AnchorPane>
