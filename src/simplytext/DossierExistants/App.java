@@ -1,6 +1,6 @@
 package simplytext.DossierExistants;
 
-import carnet.GUI;
+import simplytext.DossierExistants.GUI;
 import java.util.concurrent.CountDownLatch;
 
 import javafx.application.Application;

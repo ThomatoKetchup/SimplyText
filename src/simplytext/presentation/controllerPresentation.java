@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
-import simplytext.inscriconnexion.ControllerInscriconnexion;
+import simplytext.inscriconnexion.controllerInscriConnexion;
 
 /**
  *
@@ -29,7 +29,7 @@ public class controllerPresentation {
     public void goToInscriConnexion(ActionEvent action) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/simplytext/inscriconnexion/viewInscriConnexion.fxml"));
         Parent root = loader.load();
-        ControllerInscriconnexion monController = (ControllerInscriconnexion) loader.getController();
+        controllerInscriConnexion monController = (controllerInscriConnexion) loader.getController();
         monController.setStage(primaryStage);
         Scene scene = new Scene(root);
         scene.getStylesheets().add(this.getClass().getResource("/simplytext/style/style.css").toExternalForm()); //ligne ajoutée pour que j'ai bien mon css
