@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+            
+<AnchorPane id="pane" prefHeight="800.0" prefWidth="1300.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ControllerView1">
+		    <ImageView fx:id="logo" fitHeight="800.0" fitWidth="800.0" preserveRatio="true"  pickOnBounds="true" AnchorPane.leftAnchor="-70.0" AnchorPane.topAnchor="-80.0" >
+		        <Image url="@/simplytext/images/logo.png" preserveRatio="true" smooth="true" />
+		    </ImageView>
+		    
+		    <Label id="titre" text="Simply Text" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="40.0"/>
+		    
+		     <MenuBar id="Accueil" focusTraversable="true" AnchorPane.leftAnchor="435" AnchorPane.rightAnchor="435">  
+		        <menus>  
+		            <Menu text="Accueil"/>  
+		            <Menu text="Créer un nouveau document"/>  
+					<Menu text="Voir documents créés"/>  
+				</menus>  
+			</MenuBar> 
+
+
+
+
+	<children>
+<!-- MENU TRI -->
+			<MenuButton layoutX="999.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Trier par...">
+        		<items>
+        			<fx:define>
+			            <ToggleGroup fx:id="choice"/>
+			        </fx:define>
+            		<RadioMenuItem mnemonicParsing="false" text="plus récent" toggleGroup="$choice"/>
+            		<RadioMenuItem mnemonicParsing="false" text="plus ancien" toggleGroup="$choice"/>
+        		</items>
+			</MenuButton>
+     	  
+     	  
+<!-- BARRE DE RECHERCHE -->	     	  
+			<ImageView fitHeight="25.0" fitWidth="25.0" layoutX="184.5" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+			 		<image>
+			     		<Image url="@/simplytext/images/recherche.png" />
+			  		</image>
+			</ImageView>
+			
+			<TextField fx:id="input" layoutX="209.0" layoutY="213.0" prefHeight="26.0" prefWidth="182.0" promptText="search" />
+			
+			<ToggleButton fx:id="recherche" layoutX="391.0" layoutY="213.0" text="valider"/>
+			
+			
+			
+<!-- CHOIX DE RECHERCHE -->	 			
+			<AnchorPane layoutX="128.0" layoutY="367.0" prefHeight="270.0" prefWidth="209.0">
+	         	<children>
+	         		<fx:define>
+			            <ToggleGroup fx:id="choix1"/>
+			        </fx:define>
+			        
+	         		<Label text="Pour faire une recherche plus approfondie" style="-fx-font-size: 12pt" layoutX="25.0" layoutY="23.0"/>
+	         		<Label text="que ce soit par date," style="-fx-font-size: 12pt" layoutX="25.0" layoutY="47.0"/>
+	         		<Label text="par nom," style="-fx-font-size: 12pt" layoutX="25.0" layoutY="71"/>
+	         		<Label text="ou par domaine" style="-fx-font-size: 12pt" layoutX="25.0" layoutY="92.0"/>
+	         		<Label text=" cliquer sur le haut de la colonne correspondante" style="-fx-font-size: 12pt" layoutX="10.0" layoutY="116.0"/>
+	         			
+		            	
+				        
+	         	</children>
+	      	</AnchorPane>
+	      
+	      
+	      
+<!-- AFFICHAGE DES FICHES -->	
+			<AnchorPane layoutX="465.0" layoutY="309.0" prefHeight="387.0" prefWidth="715.0">
+				<children>
+      				
+      					<ToggleButton layoutX="300" layoutY="100" text="Cliquer ici pour afficher les listes déjà crées" onAction="#AffichageFiches"/>
+      				
+	      		</children>
+	      	</AnchorPane>
+	      
+	      
+	</children>
+   
+    
+</AnchorPane>
