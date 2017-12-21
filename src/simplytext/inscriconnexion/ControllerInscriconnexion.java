@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import simplytext.choix.controllerChoix;
 
 
-public class controllerInscriConnexion {
+public class ControllerInscriconnexion {
     private Stage primaryStage;
 
     

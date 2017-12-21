@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import simplytext.choix.controllerChoix;
 
 
-public class mainInscriConnexion extends Application {
+public class MainInscriconnexion extends Application {
     
     @Override
     public void start(Stage primaryStage) throws Exception{
