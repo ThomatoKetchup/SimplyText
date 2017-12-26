@@ -24,7 +24,7 @@ public class ControllerView1 {
         App startUpTest = App.waitForApp();
         startUpTest.printSomething();
 		System.out.println("I am being called");
-		App.launch(null);
+		App.launch();
 	}
 
 }
